@@ -1,8 +1,17 @@
 
-import ReactDOM from "react-dom";
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-let text = document.getElementById('root')
-let tekst = document.createElement('p')
 
-text.append(tekst)
-tekst.innerHTML = 'lorem'
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <div>
+    <p>farjngrgnreigniqregnuqgnqrnufqdjfnaijon</p>
+    <p>sdadasdsadsdlmdlas</p>
+    <span>sdasdasdsdasooooo</span>
+   </div>
+)
+
+
+
