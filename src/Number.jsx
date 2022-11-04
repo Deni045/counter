@@ -1,9 +1,9 @@
 
 
-function Number(){
+function Number(props){
     return(
     <div >
-        <p className="number">0</p>
+        <p className="number">{props.counter}</p>
     </div>  
     )
 }
