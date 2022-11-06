@@ -4,7 +4,7 @@ import { useState } from "react";
 
 function MainContent(props){
 
-    const [counter, setCounter] = useState (0)
+    const [counter, setCounter] = useState(0);
 
     return(
         <div className="Main">
